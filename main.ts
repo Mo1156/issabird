@@ -515,6 +515,7 @@ game.onUpdateInterval(1500, function () {
     projectile = sprites.createProjectileFromSide(bottomImage, -45, 0)
     projectile.bottom = scene.screenHeight()
 })
+// shake when you reach a score
 game.onUpdate(function () {
     if (info.score() >= 10) {
         scene.cameraShake(8, 200)
