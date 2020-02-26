@@ -4,6 +4,15 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Projectile, function (sprite, ot
 controller.anyButton.onEvent(ControllerButtonEvent.Pressed, function () {
     BIRD.vy = -100
 })
+/**
+ * sprite/ character 
+ * 
+ * speed 
+ * 
+ * background format 
+ * 
+ * clouds effect
+ */
 let projectile: Sprite = null
 let bottomImage: Image = null
 let topImage: Image = null
@@ -151,6 +160,9 @@ scene.setBackgroundImage(img`
 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
 `)
 effects.clouds.startScreenEffect()
+/**
+ * blocks the charcter has to go through and score change of 1  for each time the sprite passes through the blocks
+ */
 game.onUpdateInterval(1500, function () {
     info.changeScoreBy(1)
     gap = Math.randomRange(0, 3)
@@ -515,6 +527,9 @@ game.onUpdateInterval(1500, function () {
     projectile = sprites.createProjectileFromSide(bottomImage, -45, 0)
     projectile.bottom = scene.screenHeight()
 })
+/**
+ * game over
+ */
 // shake when you reach a score
 game.onUpdate(function () {
     if (info.score() >= 10) {
