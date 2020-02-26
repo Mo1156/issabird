@@ -275,11 +275,11 @@ game.onUpdateInterval(1500, function () {
 . . f f f f f f f f f f f f f f f f f . . . . . 
 `
         bottomImage = img`
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . f f f f f f f f f f f f f f f f f f f . . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
 . . . f f f f f f f f f f f f f f f f f f f . . 
 . . . f f f f f f f f f f f f f f f f f f f . . 
 . . . f f f f f f f f f f f f f f f f f f f . . 
@@ -374,23 +374,23 @@ game.onUpdateInterval(1500, function () {
 . . f f f f f f f f f f f f f f f f f f f f . . 
 . . f f f f f f f f f f f f f f f f f f f f . . 
 . . f f f f f f f f f f f f f f f f f f f f . . 
-. . . . f f f f f f f f f f f f f f f f f f . . 
-. . . . f f f f f f f f f f f f f f f . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
+. f f f f f f f f f f f f f f f f f f f f f f . 
+. f f f f f f f f f f f f f f f f f f f f f f . 
+. f f f f f f f f f f f f f f f f f f f f f f . 
+. f f f f f f f f f f f f f f f f f f f f f f . 
+. f f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
 `
         bottomImage = img`
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . f f f f f . . . f f f f f f f f f f f . . 
-. . . f f f f f f f f f f f f f f f f f f f . . 
-. . f f f f f f f f f f f f f f f f f f f f . . 
-. . f f f f f f f f f f f f f f f f f f f f . . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
+. . f f f f f f f f f f f f f f f f f f f f f . 
 . . f f f f f f f f f f f f f f f f f f f f f . 
 . . f f f f f f f f f f f f f f f f f f f f f . 
 . . f f f f f f f f f f f f f f f f f f f f f . 
@@ -427,10 +427,10 @@ game.onUpdateInterval(1500, function () {
 `
     } else {
         topImage = img`
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . f f f f f . . . . . . . . . . 
-. . . . . . . . f f f f f f f f . . . . . . . . 
-. . . . . . . f f f f f f f f f f . . . . . . . 
+. . . . . . f f f f f f f f f f f f . . . . . . 
+. . . . . . f f f f f f f f f f f f . . . . . . 
+. . . . . . f f f f f f f f f f f f . . . . . . 
+. . . . . . f f f f f f f f f f f f . . . . . . 
 . . . . . . . f f f f f f f f f f . . . . . . . 
 . . . . . . . f f f f f f f f f f . . . . . . . 
 . . . . . . . f f f f f f f f f f . . . . . . . 
@@ -476,13 +476,13 @@ game.onUpdateInterval(1500, function () {
 . . . . . . . . f f f f f f f f f . . . . . . . 
 . . . . . . . . f f f f f f f f f . . . . . . . 
 . . . . . . . . f f f f f f f f f . . . . . . . 
-. . . . . . . . f f f f f f f f f . . . . . . . 
-. . . . . . . . f f f f f f f f f . . . . . . . 
-. . . . . . . . . f f f f f f f f . . . . . . . 
-. . . . . . . . . f f f f f f f . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . . . . . . . . . 
+. . . . . . . . f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
+. . . . . . . f f f f f f f f f f f . . . . . . 
 `
         bottomImage = img`
 . . . . . . f f f f f f f f f f f f f . . . . . 
@@ -517,6 +517,6 @@ game.onUpdateInterval(1500, function () {
 })
 game.onUpdate(function () {
     if (info.score() >= 10) {
-        scene.cameraShake(8, 500)
+        scene.cameraShake(8, 200)
     }
 })
