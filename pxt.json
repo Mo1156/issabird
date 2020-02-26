@@ -1,5 +1,5 @@
 {
-    "name": "issaBIRD",
+    "name": "bird",
     "dependencies": {
         "device": "*"
     },
